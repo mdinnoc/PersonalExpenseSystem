@@ -31,7 +31,7 @@ sistema-spese/
 ├── spese.py          # Modulo 2 — Inserimento di una Spesa
 ├── budget.py         # Modulo 3 — Definizione del Budget Mensile
 ├── report.py         # Modulo 4 — Visualizzazione dei Report
-├── spese.db          # Database spese registrate
+├── spese.db*         # Database spese registrate
 └── README.md         # Questo file
 ```
 
