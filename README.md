@@ -31,8 +31,7 @@ sistema-spese/
 ├── spese.py          # Modulo 2 — Inserimento di una Spesa
 ├── budget.py         # Modulo 3 — Definizione del Budget Mensile
 ├── report.py         # Modulo 4 — Visualizzazione dei Report
-├── schema.sql        # Script SQL di creazione delle tabelle (con tutti i vincoli)
-├── dati_esempio.sql  # Script SQL di inserimento dati di esempio
+├── spese.db          # Database spese registrate
 └── README.md         # Questo file
 ```
 
