@@ -47,11 +47,10 @@ categorie
 │ id   INTEGER PK         │
 │ nome TEXT NOT NULL UNIQ │
 └────────────┬────────────┘
-                  │ 1
-                  ├──────────────────────────────────────┐
-                  │ N                                    │ N
-                  ▼                                      ▼
-spese                                              budget_mensile
+             │ 1
+             ├──────────────────────────────────────┐                                                                                 │ N                                    │ N
+             ▼                                      ▼
+           spese                              budget_mensile
 ┌─────────────────────────┐            ┌─────────────────────────┐
 │ id           INTEGER PK │            │ id           INTEGER PK │
 │ data         TEXT NN    │            │ mese         TEXT NN    │
