@@ -44,20 +44,20 @@ Schema del Database
 ```
 categorie
 ┌─────────────────────────┐
-│ id   INTEGER PK                  │
-│ nome TEXT NOT NULL UNIQ          │
+│ id   INTEGER PK         │
+│ nome TEXT NOT NULL UNIQ │
 └────────────┬────────────┘
                   │ 1
                   ├──────────────────────────────────────┐
-                  │ N                                                  │ N
-                  ▼                                                    ▼
+                  │ N                                    │ N
+                  ▼                                      ▼
 spese                                              budget_mensile
 ┌─────────────────────────┐            ┌─────────────────────────┐
-│ id           INTEGER PK          │            │ id           INTEGER PK           │
-│ data         TEXT NN             │            │ mese         TEXT NN              │
-│ importo      REAL NN >0          │            │ categoria_id INTEGER FK           │
-│ categoria_id INTEGER FK          │            │ importo      REAL NN >0           │
-│ descrizione  TEXT                │            │ UNIQUE(mese, cat_id)              │
+│ id           INTEGER PK │            │ id           INTEGER PK │
+│ data         TEXT NN    │            │ mese         TEXT NN    │
+│ importo      REAL NN >0 │            │ categoria_id INTEGER FK │
+│ categoria_id INTEGER FK |            │ importo      REAL NN >0 │
+│ descrizione  TEXT       │            │ UNIQUE(mese, cat_id)    │
 └─────────────────────────┘            └─────────────────────────┘
 ```
 
