@@ -8,7 +8,7 @@ gestione delle spese personali, delle categorie e dei budget mensili.
 Requisiti per l'Esecuzione
 
 Interprete necessario
-- **Python 3.10** o versione superiore
+- **Python 3.10** o versione superiore installata sulla macchina
 
 Librerie utilizzate
 Sono tutte librerie standard di Python — non è necessario installare nulla:
@@ -159,3 +159,13 @@ Spesa inserita correttamente.
 - Tutti i confronti sui nomi delle categorie sono **case-insensitive**
   (es. "alimentari" e "Alimentari" sono trattati come uguali).
 - L'applicazione non richiede connessione a internet né server esterni.
+
+---
+
+Istruzioni di avvio
+
+Aprire shell prompt dei comandi
+Puntare la cartella che contiene l'interezza del progetto
+Eseguire il comando **python main.py**
+
+---
